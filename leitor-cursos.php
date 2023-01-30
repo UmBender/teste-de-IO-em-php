@@ -1,14 +1,8 @@
 <?php
-$arquivo = fopen('lista-cursos.txt', 'r');
 
-// while (!feof($arquivo)) {
-//     $curso = fgets($arquivo);
-//     echo $curso;
-// }
-$tamanhoDoArquivo = filesize('lista-cursos.txt');
-$cursos =fread($arquivo,$tamanhoDoArquivo);
-echo $cursos;
-
-fclose($arquivo);
+$valor = file('lista-cursos.txt');
+foreach ($valor as $key => $value) {
+    echo "Na posicao " . $key. " a string: " . $value;
+}
 ?>
 
