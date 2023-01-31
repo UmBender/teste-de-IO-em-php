@@ -1,9 +1,6 @@
-
-Design Patterns PHP 
-
+Design Patterns PHP
 Design Patterns PHP I: Boas práticas de programação
 Design Patterns PHP I: Boas práticas de programação
-
 Design Patterns PHP I: Boas práticas de programação 
 Design Patterns PHP II: Boas práticas de programação 
 Bem vindo ao mundo, eu sou seu criador
